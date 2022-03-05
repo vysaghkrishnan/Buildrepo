@@ -12,7 +12,7 @@ pipeline
                 sh 'ls -al'
 		sh 'docker version'
                 sh 'echo "Creating Docker Image..."'
-		sh docker 'build -t vysaghkrishnan/mypython:1.0 .'
+		sh 'docker 'build -t vysaghkrishnan/mypython:1.0 .'
             }
         }
     }
